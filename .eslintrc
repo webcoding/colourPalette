@@ -1,0 +1,24 @@
+// http://eslint.org/docs/user-guide/configuring
+
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  // add your custom rules here
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1 }],
+    "no-useless-escape": 0,
+
+    // allow debugger during development
+    // "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0
+    "semi": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "ignore",
+      "asyncArrow": "ignore"
+    }]
+  }
+}

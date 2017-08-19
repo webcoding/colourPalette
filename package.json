@@ -18,5 +18,12 @@
   "homepage": "https://github.com/webcoding/colorPalette#readme",
   "dependencies": {
     "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
