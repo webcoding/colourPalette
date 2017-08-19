@@ -1,6 +1,6 @@
 {
   "name": "colour-palette",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "colour palette by ant-design",
   "main": "index.js",
   "scripts": {
