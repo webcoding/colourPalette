@@ -1,4 +1,4 @@
-import colourPalette from './'
+import colourPalette from './colorPalette'
 // console.log(colourPalette('#108ee9', 1))
 
 console.log(colourPalette)
