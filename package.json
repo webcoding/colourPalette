@@ -1,0 +1,22 @@
+{
+  "name": "color-palette",
+  "version": "1.0.0",
+  "description": "color palette by ant-design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webcoding/colorPalette.git"
+  },
+  "author": "cloudyan <1395093509@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webcoding/colorPalette/issues"
+  },
+  "homepage": "https://github.com/webcoding/colorPalette#readme",
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
+  }
+}
