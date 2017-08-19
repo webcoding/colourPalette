@@ -1,7 +1,7 @@
 {
-  "name": "color-palette",
+  "name": "colour-palette",
   "version": "1.0.0",
-  "description": "color palette by ant-design",
+  "description": "colour palette by ant-design",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
