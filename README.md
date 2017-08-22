@@ -2,6 +2,12 @@
 
 colourPalette by ant-design
 
+## build
+
+```bash
+babel -d lib/ src/
+```
+
 ## usage
 
 ```js
