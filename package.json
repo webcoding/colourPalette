@@ -1,6 +1,6 @@
 {
   "name": "colour-palette",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "colour palette by ant-design",
   "main": "lib/colorPalette.js",
   "scripts": {

@@ -1,5 +1,5 @@
 import colourPalette from './'
-console.log(colourPalette('#108ee9', 1))
+console.log('测试通过:', colourPalette('#108ee9', 1) == '#ecf6fd')
 
 console.log(colourPalette)
 // $blue-6     = #108ee9;

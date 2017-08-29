@@ -1,3 +1,4 @@
+// import tinyColor from './tinyColor'
 import tinyColor from 'tinycolor2'
 import bezierEasing from './bezierEasing'
 
