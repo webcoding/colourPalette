@@ -1,5 +1,5 @@
 import colourPalette from './'
-// console.log(colourPalette('#108ee9', 1))
+console.log(colourPalette('#108ee9', 1))
 
 console.log(colourPalette)
 // $blue-6     = #108ee9;
