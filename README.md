@@ -13,8 +13,14 @@ npm run build
 ```js
 import colourPalette from 'colour-palette'
 
-// output 1-10
+// js 中使用，输入 colourPalette(color, index); 如：
 console.log(colourPalette('#108ee9', 1))
+
+// 注意，在样式中引入此函数时，传入参数要去掉引号，如下使用
+body{
+  background-color: colorPalette(#108ee9, 2);
+  color: colorPalette(#00a854, 9);
+}
 ```
 
 ## example

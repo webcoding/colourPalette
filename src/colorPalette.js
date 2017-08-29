@@ -25,6 +25,9 @@ var getShadeColor = function (c) {
 }
 var primaryEasing = colorEasing(0.6)
 const colorPalette = function (color, index) {
+  if( !(parseInt(index) == index && index > 0 && index < 11) ){
+    console.warn('please input index must be an integer between 1-10')
+  }
   var currentEasing = colorEasing(index * 0.1)
   // return light colors after tint
   if (index <= 6) {
