@@ -1,9 +1,10 @@
 {
   "name": "colour-palette",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "colour palette by ant-design",
   "main": "lib/colorPalette.js",
   "scripts": {
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",

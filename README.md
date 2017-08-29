@@ -12,6 +12,17 @@ babel -d lib/ src/
 
 ```js
 import colourPalette from 'colour-palette'
+
+// output 1-10
+console.log(colourPalette('#108ee9', 1))
+```
+
+## example
+
+输入 ant-design 基准色，输出对应的阶级色板
+
+```
+import colourPalette from 'colour-palette'
 // console.log(colourPalette('#108ee9', 1))
 
 console.log(colourPalette)
