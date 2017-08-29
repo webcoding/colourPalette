@@ -5,7 +5,7 @@ colourPalette by ant-design
 ## build
 
 ```bash
-babel -d lib/ src/
+npm run build
 ```
 
 ## usage
