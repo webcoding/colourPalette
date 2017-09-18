@@ -4,7 +4,7 @@
   "description": "colour palette by ant-design",
   "main": "lib/colorPalette.js",
   "scripts": {
-    "build": "babel src -d lib",
+    "prepublishOnly": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
